@@ -18,10 +18,27 @@ public class Boot {
      */
     public void display() {
         if (this.direction.equals("left")) {
-          System.out.println("Left boot?");
+          System.out.println("         |=~=|");
+          System.out.println("         |   |");
+          System.out.println("         / **|");
+          System.out.println("     .-'`    |");
+          System.out.println("     (___/\\__)");
+          
         } else if (this.direction.equals("right")) {
-          System.out.println("Right boot?");
-        } else {
+          System.out.println("|=~=|");
+          System.out.println("|   |");
+          System.out.println("|** \\");
+          System.out.println("|    `'-.");
+          System.out.println("(__/\\___)");
+        }
+          else if (this.direction.equals("both")) {
+            System.out.println("         |=~=|  |=~=|");
+            System.out.println("         |   |  |   |");
+            System.out.println("         / **|  |** \\");
+            System.out.println("     .-'`    |  |    `'-.");
+            System.out.println("     (___/\\__)  (__/\\___)");         
+        }
+        else {
           System.out.println("Which boot?");
         }
     }
@@ -30,7 +47,10 @@ public class Boot {
     public static void main(String[] args) {
         Boot myLeftBoot = new Boot("left");
         Boot myRightBoot = new Boot("right");
+        Boot BothBoot = new Boot("both");
         myLeftBoot.display();
         myRightBoot.display();
+        BothBoot.display();
+        
     }
 }
