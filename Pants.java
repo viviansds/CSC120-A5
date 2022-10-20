@@ -7,7 +7,7 @@
 public class Pants {
 
     /*
-     * TODO: Modify this method to print ASCII Art Pants
+     * 
      */
     public void display() {
         System.out.println("        .=====GG=====.");
@@ -18,7 +18,7 @@ public class Pants {
         System.out.println("        |     ||     |");
         System.out.println("        |     ||     |");
         System.out.println("        |     ||     |");
-        System.out.println("        |     ||     |");
+        System.out.println("        |=====||=====|");
         System.out.println("        |_____||_____|");
     }
 

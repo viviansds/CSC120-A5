@@ -7,17 +7,17 @@
 public class Shirt {
 
     /*
-     * TODO: Modify this method to print ASCII Art Shirt
+     * 
      */
     public void display() {
         System.out.println("        __,--./|.--,__");
         System.out.println("      .`   \\ \\ / /    `.");
-        System.out.println("    .`      \\ | /       `.");
-        System.out.println("   /   /     ^|^   %  \\   \\");
-        System.out.println("  /   / |     |o     | \\   \\");
+        System.out.println("    /       \\ | /        \\");
+        System.out.println("   /   /     ^|^      \\   \\");
+        System.out.println("  /   / |     |o[_@_]| \\   \\");
         System.out.println(" /===/  |     |      |  \\===\\");
         System.out.println("/___/   |     |o     |   \\___\\");
-        System.out.println("        |     |      |");
+        System.out.println("(())\\   |     |      |    /(())");
         System.out.println("        |     |o     |");
         System.out.println("        |_____/\\_____|");
     }

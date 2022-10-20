@@ -14,7 +14,7 @@ public class Boot {
     }
 
     /*
-     * TODO: Modify this method to print ASCII Art Boot
+     * 
      */
     public void display() {
         if (this.direction.equals("left")) {

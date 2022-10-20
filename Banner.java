@@ -4,6 +4,8 @@
  * @author R. Jordan Crouser + CSC120 (Fall '22))
  * @version 13 October 2022
  */
+
+ 
 public class Banner {
     
     /* Message to print on Banner */
@@ -15,7 +17,7 @@ public class Banner {
     }
 
     /*
-     * TODO: Modify this method to print a decorative banner, resized to fit the message
+     * 
      */
     public void display() {
         int l=this.message.length();
@@ -53,7 +55,7 @@ public class Banner {
 
     /* main method (for testing) */
     public static void main(String[] args) {
-        Banner myBanner = new Banner("Hi Hi Alex");
+        Banner myBanner = new Banner("Hello World");
         myBanner.display();
     }
 }
