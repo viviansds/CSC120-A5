@@ -6,15 +6,18 @@
  */
 public class Boot {
   
+    /* The direction of the boot: left, right, or both*/
     private String direction;
   
-    /* Constructor */
+    /* Constructor 
+     * @param a string indicating direction
+    */
     public Boot(String direction) {
         this.direction = direction.toLowerCase();
     }
 
     /*
-     * 
+     * Prints ASCII art depicting individual left or right, and both boots to the console.
      */
     public void display() {
         if (this.direction.equals("left")) {

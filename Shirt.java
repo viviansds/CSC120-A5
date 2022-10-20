@@ -7,7 +7,7 @@
 public class Shirt {
 
     /*
-     * 
+     * Prints ASCII art depicting a long sleeve shirt to the console.
      */
     public void display() {
         System.out.println("        __,--./|.--,__");

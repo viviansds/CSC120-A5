@@ -7,7 +7,7 @@
 public class Pants {
 
     /*
-     * 
+     * Prints ASCII art depicting a pair of pant with a belt to the console.
      */
     public void display() {
         System.out.println("        .=====GG=====.");
