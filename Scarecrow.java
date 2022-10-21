@@ -12,18 +12,16 @@ public class Scarecrow {
     private Pants legs;
     private Boot BothFoot;
     private Banner sign;
-    private String message;
 
     /* Constructor*/
-    public Scarecrow(Pumpkin h, Shirt b, Pants l,Boot f,Banner s, String m) {
+    public Scarecrow(Pumpkin h, Shirt b, Pants l,Boot f,Banner s) {
         head = h;
         body = b;
         legs = l;
         BothFoot = f;
         sign = s;
-        message=m;
-
     }
+
     /* Displays the Scarecrow in the right order! */
     public void display() {
         sign.display();
@@ -41,8 +39,7 @@ public class Scarecrow {
                                               new Shirt(), 
                                               new Pants(), 
                                               new Boot("both"), 
-                                              new Banner(""),
-                                              "Happy Fall!");
+                                              new Banner(""));
 
         // If a message was passed in on the command line, extract and store it 
         if (args.length > 0) {
@@ -50,7 +47,7 @@ public class Scarecrow {
             System.out.println(sign);
             myScarecrow.sign = new Banner(sign);
         }else {//print default message of that instance
-            myScarecrow.sign = new Banner(myScarecrow.message);
+            myScarecrow.sign = new Banner("Happy Fall!");
         }
 
         myScarecrow.display();
