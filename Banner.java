@@ -41,7 +41,7 @@ public class Banner {
         // Third line of the banner
         System.out.println("*** ~ "+this.message+" ~ ***");
 
-        // Fourth line of the banner(same is the second line)
+        // Fourth line of the banner(same as the second line)
         System.out.print(" *** ");
         for(int i=0;i<l+2;i++){
             System.out.print("~");

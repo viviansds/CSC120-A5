@@ -17,7 +17,7 @@ public class Boot {
     }
 
     /*
-     * Prints ASCII art depicting individual left or right, and both boots to the console.
+     * Prints ASCII art depicting individual left or right, or both boots to the console.
      */
     public void display() {
         if (this.direction.equals("left")) {

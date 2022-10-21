@@ -1,8 +1,7 @@
 /*
- * Scarecrow class (template) Assignment 5: Bringing it All Together @author R.
- * Jordan Crouser + CSC120 (Fall '22)) @version 13 October 2022 
- * @param a object from class Pumpkin, a object from class, Shirt, a object from class Boot, a
- * object from class Banner, a string
+ * Scarecrow class (template) Assignment 5: Bringing it All Together 
+ * @author R. Jordan Crouser + CSC120 (Fall '22)) 
+ * @version 13 October 2022 
  */
 
 public class Scarecrow {
@@ -43,7 +42,7 @@ public class Scarecrow {
                                               new Pants(), 
                                               new Boot("both"), 
                                               new Banner(""),
-                                              "Happy Fall");
+                                              "Happy Fall!");
 
         // If a message was passed in on the command line, extract and store it 
         if (args.length > 0) {
